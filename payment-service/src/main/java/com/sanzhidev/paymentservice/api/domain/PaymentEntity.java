@@ -1,7 +1,7 @@
-package com.sanzhidev.paymentservice.domain;
+package com.sanzhidev.paymentservice.api.domain;
 
-import com.sanzhidev.api.http.payment.order.PaymentMethod;
-import com.sanzhidev.api.http.payment.order.PaymentStatus;
+import com.sanzhidev.api.http.payment.PaymentMethod;
+import com.sanzhidev.api.http.payment.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

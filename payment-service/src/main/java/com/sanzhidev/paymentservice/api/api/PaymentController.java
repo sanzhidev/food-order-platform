@@ -1,6 +1,7 @@
-package com.sanzhidev.paymentservice.api;
+package com.sanzhidev.paymentservice.api.api;
 
-import com.sanzhidev.paymentservice.api.domain.CreatePaymentRequestDto;
+import com.sanzhidev.paymentservice.api.PaymentService;
+import com.sanzhidev.api.http.order.CreatePaymentRequestDto;
 import com.sanzhidev.api.http.CreatePaymentResponseDto;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

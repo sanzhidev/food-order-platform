@@ -1,4 +1,4 @@
-package com.sanzhidev.paymentservice.domain;
+package com.sanzhidev.paymentservice.api.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

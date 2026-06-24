@@ -1,8 +1,7 @@
-package com.sanzhidev.paymentservice.api.api;
+package com.sanzhidev.paymentservice.api.domain;
 
-import com.sanzhidev.paymentservice.api.domain.CreatePaymentRequestDto;
 import com.sanzhidev.api.http.CreatePaymentResponseDto;
-import com.sanzhidev.paymentservice.api.domain.PaymentEntity;
+import com.sanzhidev.api.http.order.CreatePaymentRequestDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;

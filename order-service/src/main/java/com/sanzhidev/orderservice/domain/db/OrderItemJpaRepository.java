@@ -1,6 +1,5 @@
-package com.sanzhidev.orderservice.domain;
+package com.sanzhidev.orderservice.domain.db;
 
-import com.sanzhidev.api.http.order.OrderItemEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderItemJpaRepository extends JpaRepository <OrderItemEntity, Long> {

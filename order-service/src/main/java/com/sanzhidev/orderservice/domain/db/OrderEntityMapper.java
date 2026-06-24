@@ -1,4 +1,4 @@
-package com.sanzhidev.orderservice.domain;
+package com.sanzhidev.orderservice.domain.db;
 
 import com.sanzhidev.api.http.order.CreateOrderRequestDto;
 import com.sanzhidev.api.http.order.OrderDto;

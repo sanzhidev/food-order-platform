@@ -1,4 +1,4 @@
-package com.sanzhidev.api.http.order;
+package com.sanzhidev.orderservice.domain.db;
 
 import jakarta.persistence.*;
 import lombok.Getter;

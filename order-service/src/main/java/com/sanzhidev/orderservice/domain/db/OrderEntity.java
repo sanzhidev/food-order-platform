@@ -1,6 +1,5 @@
-package com.sanzhidev.orderservice.domain;
+package com.sanzhidev.orderservice.domain.db;
 
-import com.sanzhidev.api.http.order.OrderItemEntity;
 import com.sanzhidev.api.http.order.OrderStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -35,6 +34,9 @@ public class OrderEntity {
     @Column(name = "total_amount",precision = 19,scale = 2)
     private BigDecimal totalAmount;
 
+    @Column(name = "courier_name")
+    private String courierName;
+
 
     @Column(name = "eta_minutes")
     private Integer etaMinutes;
@@ -46,7 +48,6 @@ public class OrderEntity {
 
     @OneToMany(mappedBy = "order",cascade = CascadeType.PERSIST)
     private Set<OrderItemEntity>  items = new LinkedHashSet<>();
-
 
 
 }

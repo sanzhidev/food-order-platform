@@ -1,4 +1,4 @@
-package com.sanzhidev.orderservice.api;
+package com.sanzhidev.api.http.order;
 
 public record OrderItemRequestDto (
 

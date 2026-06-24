@@ -1,0 +1,20 @@
+package com.sanzhidev.deliveryservice;
+
+import com.sanzhidev.api.kafka.OrderPaidEvent;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.annotation.EnableKafka;
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Component;
+
+@Slf4j
+@EnableKafka
+@Configuration
+public class OrderPaidKafkaConsumer {
+
+    @KafkaListener
+    public void listen(OrderPaidEvent event) {
+        log. info("Received order paid event: {}", event);
+
+    }
+}

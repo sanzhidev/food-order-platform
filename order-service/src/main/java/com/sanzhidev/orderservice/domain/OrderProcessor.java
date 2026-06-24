@@ -46,6 +46,10 @@ public class OrderProcessor {
         }
         entity.setTotalAmount(totalPrice);
 
+    }
+
+    public OrderEntity processPayment(OrderPaymentRequest request ) {
+
 
     }
 }

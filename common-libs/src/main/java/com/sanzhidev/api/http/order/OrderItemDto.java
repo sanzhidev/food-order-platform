@@ -1,8 +1,8 @@
-package com.sanzhidev.orderservice.api;
+package com.sanzhidev.api.http.order;
 
 import java.math.BigDecimal;
 
-public record OrderItemEntityDto(
+public record OrderItemDto(
         Long id,
         Long itemId,
         Integer quantity,

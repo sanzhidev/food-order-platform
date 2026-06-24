@@ -1,7 +1,7 @@
 package com.sanzhidev.orderservice.domain;
 
-import com.sanzhidev.orderservice.api.CreateOrderRequestDto;
-import com.sanzhidev.orderservice.api.OrderDto;
+import com.sanzhidev.api.http.order.CreateOrderRequestDto;
+import com.sanzhidev.api.http.order.OrderDto;
 import org.mapstruct.*;
 
 

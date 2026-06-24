@@ -1,7 +1,4 @@
-package com.sanzhidev.orderservice.api;
-
-import com.sanzhidev.orderservice.domain.OrderItemEntity;
-import com.sanzhidev.orderservice.domain.OrderStatus;
+package com.sanzhidev.api.http.order;
 
 import java.math.BigDecimal;
 import java.util.Set;
@@ -14,7 +11,7 @@ public record OrderDto(
         String courierName,
         Integer etaMinutes,
         OrderStatus orderStatus,
-        Set<OrderItemEntity> orderItemEntity
+        Set<OrderItemDto> items
 
 ) {
 }

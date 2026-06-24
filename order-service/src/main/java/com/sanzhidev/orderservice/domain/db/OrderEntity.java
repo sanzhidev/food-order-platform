@@ -1,5 +1,7 @@
 package com.sanzhidev.orderservice.domain;
 
+import com.sanzhidev.api.http.order.OrderItemEntity;
+import com.sanzhidev.api.http.order.OrderStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
